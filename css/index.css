@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    justify-content: space-between;/*justifica o conteudo e joga os conteudos para asetremidades*/
+    background-color: #025959;
+    padding: 10px 20px;
+    border-bottom: 10px solid #000;/*escrita de forma resumida, primeiro o tamanho, depois se é solida e por ultimo a cor*/
+
+}
+
+h1{/*mudei o display pra flex e assim sendo possivel deixar o texto alinhado com o align-itens*/
+    font-family: "Kanit";
+    display: flex;
+    align-items: center;
+}
+
+/*img{
+    height: 60px;
+    width: 60px; 
+}*/
+
+nav{
+    
+    text-align: right;/*alinhamento do texto*/
+
+}
+
+a{
+    display: inline-flex;/*o inline-flex faz com que os elementos flexiveis um apos o outro se alinhem na mesma linha até que a largura da tela seja ocupada*/
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Kanit";
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    content: " ";
+    background-color: #BF3636;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+#button{
+    display: inline-block;
+    background-color: #BF3636;
+    padding: 18px 20px;/*o padding define a distancia do conteudo para sua borda interna*/
+    box-shadow: 5px 5px 2px #000;
+    margin: 0px;
+    transition: transform 120ms cubic-bezier(.79,.14,.68,1.51);
+}
+
+#button:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px #000;
+}
+#button:active{
+    transform: translate(5px,5px);
+    box-shadow: none;
+    
+}
