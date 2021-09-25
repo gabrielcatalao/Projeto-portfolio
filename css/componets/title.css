@@ -1,6 +1,6 @@
 h1{
     font-family: "Quantico", sans-serif;
-    /*font-size: ;*/
-    color: #000;
-    text-shadow: 1px 2px 3px #000;
+    font-size: 40px;
+    color: rgb(133, 45, 45);
+    text-shadow: 3px 3px 0px #000;
 }
