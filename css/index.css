@@ -7,16 +7,10 @@ header{
 
 }
 
-h1{/*mudei o display pra flex e assim sendo possivel deixar o texto alinhado com o align-itens*/
-    font-family: "Kanit";
-    display: flex;
-    align-items: center;
-}
-
-/*img{
+img{
     height: 60px;
     width: 60px; 
-}*/
+}
 
 nav{
     
@@ -29,7 +23,7 @@ a{
     align-items: center;
     color: #fff;
     font-size: 20px;
-    font-family: "Kanit";
+    font-family: "Kanit", sans-serif;
     text-decoration: none;
     margin-right: 30px;
 }
